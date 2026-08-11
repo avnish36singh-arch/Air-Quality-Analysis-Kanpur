@@ -1,0 +1,8 @@
+.env
+kanpur_*_merged.csv
+trash(literally)/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
