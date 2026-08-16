@@ -28,16 +28,20 @@ Data pulled from the OpenAQ v3 API (https://api.openaq.org), which aggregates CP
 
 ## Project Structure
 
-fetch_data.py - Pulls PM2.5/PM10 and weather data from OpenAQ API
-01_clean_merge.py - Cleans and merges PM2.5/PM10 per station
-02_analysis.py - Seasonal, AQI, and diurnal analysis
-03_visualize.py - Generates charts 1-4
+Project Structure
+
+fetch_data.py       - Pulls PM2.5/PM10 and weather data from OpenAQ API
+01_clean_merge.py   - Cleans and merges PM2.5/PM10 per station
+02_analysis.py      - Seasonal, AQI, and diurnal analysis
+03_visualize.py     - Generates charts 1-4
 04_weather_merge.py - Merges weather variables with pollutant data
-05_weather_charts.py - Generates charts 5-7 (correlation, scatter, wind rose)
-charts/ - All 7 generated visualizations
-data/ - Cleaned, analysis-ready datasets
+05_weather_charts.py- Generates charts 5-7 (correlation, scatter, wind rose)
+
+charts/              - All 7 generated visualizations
+data/                - Cleaned, analysis-ready datasets
+
 Kanpur_Air_Quality_Report.md - Full written report with methodology and findings
-requirements.txt - Python dependencies
+requirements.txt             - Python dependencies
 
 ## Setup and Reproduction
 
@@ -58,4 +62,4 @@ requirements.txt - Python dependencies
 See Kanpur_Air_Quality_Report.md for complete methodology, findings, limitations, and interpretation.
 
 ---
-Author: Avnish Singh - Civil Engineering (Environmental), Harcourt Butler Technical University
+Author: Avnish Singh - Civil Engineering, Harcourt Butler Technical University Kanpur (28)
